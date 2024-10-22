@@ -91,7 +91,7 @@ int main()
     /* Leitura da entrada e inicialização da arena e dos robôs */
     le_entrada();
 
-    /* Simulação dos turnos */
+    /* Simulação dos turnos. O turno 0 é o estado inicial. */
     for (int turno = 0; turno <= num_total_turnos; turno++)
     {
         printf("Turno %d:\n", turno);
