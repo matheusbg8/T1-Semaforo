@@ -38,7 +38,7 @@ Cada robô é programado com uma sequência individual de movimentos, definida p
 
 A simulação da movimentação dos robôs é feita em **turnos**. Em cada turno, cada robô pode fazer uma movimentação, desde que tenha energia suficiente e o movimento seja válido. Se dois ou mais robôs tentarem se mover para a mesma posição, apenas o robô com menor identificador (ID) realizará o movimento. Os demais precisarão esperar o próximo turno.
 
-A simulação termina quando o número total de turnos (`T`) for atingido.
+A simulação termina quando o número total de turnos (`T`) for atingido. O turno 0 é o estado incial da simulação.
 
 ### Gestão de Energia
 
