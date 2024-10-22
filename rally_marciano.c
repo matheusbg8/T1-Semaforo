@@ -92,7 +92,7 @@ int main()
     le_entrada();
 
     /* Simulação dos turnos. O turno 0 é o estado inicial. */
-    for (int turno = 0; turno <= num_total_turnos; turno++)
+    for (int turno = 0; turno < num_total_turnos; turno++)
     {
         printf("Turno %d:\n", turno);
         imprime_estado();
@@ -106,6 +106,8 @@ int main()
     }
 
     /* Imprime os resultados da simulação */
+    printf("Turno %d:\n", num_total_turnos);
+    imprime_estado();
     imprime_resultados();
 
     /* Liberação de memória alocada */

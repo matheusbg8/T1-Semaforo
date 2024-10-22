@@ -1,4 +1,4 @@
-5 5 2 10 6
+5 5 2 10 5
 .....
 ..b..
 .x.x.
@@ -10,4 +10,4 @@
 5 OONOO
 
 
-Esta entrada e uma demonstracaod de como o sistema funciona
+Esta entrada é uma demonstração de como o sistema funciona.

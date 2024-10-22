@@ -78,7 +78,7 @@ O programa deve ler a entrada a partir de um arquivo de texto ou do console, no 
 ## Exemplo de Entrada
 
 ```plaintext
-5 5 2 10 6
+5 5 2 10 5
 .....
 ..b..
 .x.x.
@@ -121,43 +121,31 @@ Turno 0:
  .   x   .   x   .  
  .   .   f   .   .  
  .   .   .   .  (1) 
-
 Turno 1:
  .   .   .   .   .  
 (0)  .   b   .   .  
  .   x   .   x   .  
  .   .   f   .   .  
  .   .   .  (1)  .  
-
 Turno 2:
  .   .   .   .   .  
  .  (0)  b   .   .  
  .   x   .   x   .  
  .   .   f   .   .  
  .   .  (1)  .   .  
-
 Turno 3:
  .   .   .   .   .  
  .   .  (0)  .   .  
  .   x   .   x   .  
  .   .  (1)  .   .  
  .   .   .   .   .  
-
 Turno 4:
  .   .   .   .   .  
  .   .   .  (0)  .  
  .   x   .   x   .  
  .  (1)  .   .   .  
  .   .   .   .   .  
-
 Turno 5:
- .   .   .   .   .  
- .   .   .   .  (0) 
- .   x   .   x   .  
-(1)  .   .   .   .  
- .   .   .   .   .  
-
-Turno 6:
  .   .   .   .   .  
  .   .   .   .  (0) 
  .   x   .   x   .  
@@ -233,7 +221,7 @@ Compare as seguintes entradas:
 #### Entrada 1:
 
 ```plaintext
-5 5 3 2 5
+5 5 3 2 4
 .....
 b...b
 b...b
@@ -250,7 +238,7 @@ b...b
 #### Entrada 2:
 
 ```plaintext
-5 5 3 2 5
+5 5 3 2 4
 .....
 b...b
 b...b
