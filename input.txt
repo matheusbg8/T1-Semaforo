@@ -1,0 +1,13 @@
+5 5 2 10 6
+.....
+..b..
+.x.x.
+..f..
+.....
+0 0
+4 4
+5 SLLLL
+5 OONOO
+
+
+Esta entrada e uma demonstracaod de como o sistema funciona
